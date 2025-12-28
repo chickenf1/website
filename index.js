@@ -4,7 +4,7 @@ const fs = require('fs');
 const cloudinary = require('cloudinary').v2;
 
 // --- CẤU HÌNH ---
-const DISCORD_TOKEN = 'MTQ1NDczOTY1MTQ5MDQ4NDM3Nw.Gy5bka.M7D2Kkw7KXLE5jrcY4Zqg02ntNLE1D_KZZLRDw';
+const DISCORD_TOKEN = 'MTQ1NDczOTY1MTQ5MDQ4NDM3Nw.G20bzH.972TiqYixq8BhHhLrLZ4Pz86-IeA810ZUd4cbY';
 const CHANNEL_ID = '1413281315834564668';
 
 // Cấu hình Cloudinary (Kho lưu trữ video vĩnh viễn miễn phí)
@@ -43,5 +43,6 @@ client.on('messageCreate', async (message) => {
         });
     }
 });
+
 
 client.login(DISCORD_TOKEN);
