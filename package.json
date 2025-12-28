@@ -1,0 +1,11 @@
+{
+  "name": "discord-video-bot",
+  "version": "1.0.0",
+  "main": "index.js",
+  "dependencies": {
+    "discord.js": "^14.13.0",
+    "cloudinary": "^1.41.0",
+    "axios": "^1.6.0"
+  },
+  "scripts": { "start": "node index.js" }
+}
